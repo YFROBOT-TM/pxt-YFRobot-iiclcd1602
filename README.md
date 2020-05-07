@@ -78,10 +78,8 @@ Licensed under the MIT License (MIT). See LICENSE file for more details.
 
 #### Metadata (used for search, rendering)
 
-* for PXT/microbit (The metadata above is needed for package search.)
-
-<script src="https://makecode.com/gh-pages-embed.js"></script>
-<script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+* for PXT/microbit 
+(The metadata above is needed for package search.)
 
 ```package
 YFRobotBit=github:YFROBOT-TM/pxt-YFRobot-iiclcd1602
