@@ -82,3 +82,7 @@ Licensed under the MIT License (MIT). See LICENSE file for more details.
 
 <script src="https://makecode.com/gh-pages-embed.js"></script>
 <script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+
+```package
+YFRobotBit=github:YFROBOT-TM/pxt-YFRobot-iiclcd1602
+```
