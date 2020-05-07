@@ -1,0 +1,24 @@
+{
+    "name": "YFRobot-iic_lcd1602",
+    "version": "0.0.1",
+    "description": "YFROBOT MakeCode extension for I2C LCD1602 display.",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "radio": "*"
+    },
+    "files": [
+        "yfrobotbit.ts",
+        "README.md",
+        "yfrobotbit_lcd.ts",
+        "_locales/YFRobotBit-LCD1602-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
