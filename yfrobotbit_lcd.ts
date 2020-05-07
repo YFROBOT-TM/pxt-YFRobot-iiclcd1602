@@ -260,7 +260,7 @@ namespace YFRobotBit {
         lcdState.cursor % lcdState.columns === 0
       ) {
         setCursor(
-          Math.idiv(position, lcdState.columns),
+          (position/lcdState.columns), //Math.idiv(position, lcdState.columns),
           position % lcdState.columns
         );
       }
