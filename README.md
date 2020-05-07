@@ -21,10 +21,56 @@ To edit this repository in MakeCode.
 
 ## Blocks preview
 
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
-
 ![A rendered view of the blocks](https://github.com//raw/master/.github/makecode/blocks.png)
+
+## Extension API
+
+### Example
+YFRobotBit.connectLcd(39);
+YFRobotBit.showStringOnLcd1602("Hello world!", 0, 15);
+YFRobotBit.showStringOnLcd1602("Hello yfrobot!", 16, 15);
+YFRobotBit.setLcdBacklight(LcdBacklight.On);
+const pos1602: number = YFRobotBit.position1602(LcdPosition1602.P0);
+const isLcdConnected: boolean = YFRobotBit.isLcdConnected();
+
+### YFRobotBit showStringOnLcd1602
+Displays a text on a LCD1602 in the given position range. The text will be cropped if it is longer than the provided range. If there is space left, it will be filled with whitespaces.
+
+```sig
+YFRobotBit.showStringOnLcd1602("Hello world", 0, 15)
+```
+
+### YFRobotBit clearLcd
+
+Clears the LCD completely.
+
+```sig
+YFRobotBit.clearLcd()
+```
+
+### YFRobotBit setLcdBacklight
+
+Enables or disables the backlight of the LCD.
+
+```sig
+YFRobotBit.setLcdBacklight(LcdBacklight.On)
+```
+
+### YFRobotBit connectLcd
+
+Connects to the LCD at a given I2C address. The addresses 39 (PCF8574) or 63 (PCF8574A) seem to be widely used.
+
+```sig
+YFRobotBit.connectLcd(39)
+```
+
+### YFRobotBit isLcdConnected
+
+Returns true if a LCD is connected. False otherwise.
+
+```sig
+YFRobotBit.isLcdConnected()
+```
 
 ## License
 
