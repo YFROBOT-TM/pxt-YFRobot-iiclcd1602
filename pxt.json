@@ -1,7 +1,7 @@
 {
     "name": "YFRobot-iic_lcd1602",
-    "version": "0.0.1",
-    "description": "YFROBOT MakeCode extension for I2C LCD1602 display.",
+    "version": "0.0.2",
+    "description": "YFROBOT MakeCode Extension for I2C LCD1602 display.",
     "license": "MIT",
     "dependencies": {
         "core": "*",
