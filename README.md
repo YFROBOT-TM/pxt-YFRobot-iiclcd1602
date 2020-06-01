@@ -21,7 +21,7 @@ To edit this repository in MakeCode.
 
 ## Blocks preview
 
-![A rendered view of the blocks](https://github.com//raw/master/.github/makecode/blocks.png)
+![A rendered view of the blocks]( https://github.com/YFROBOT-TM/pxt-YFRobot-iiclcd1602/blob/master/.github/makecode/blocks.png )
 
 ## Extension API
 
