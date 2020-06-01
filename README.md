@@ -1,7 +1,5 @@
 # YFROBOT MAKECODE Extensions OF IIC LCD1602 FOR MICRO:BIT
 
-> Open this page at [https://.github.io//](https://.github.io//)
-
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
@@ -21,7 +19,7 @@ To edit this repository in MakeCode.
 
 ## Blocks preview
 
-![A rendered view of the blocks]( https://github.com/YFROBOT-TM/pxt-YFRobot-iiclcd1602/blob/master/.github/makecode/blocks.png )
+![A rendered view of the blocks](https://github.com/YFROBOT-TM/pxt-YFRobot-iiclcd1602/blob/master/.github/makecode/blocks.png)
 
 ## Extension API
 
@@ -78,8 +76,7 @@ Licensed under the MIT License (MIT). See LICENSE file for more details.
 
 ## Metadata (used for search, rendering)
 
-* for PXT/microbit 
-(The metadata above is needed for package search.)
+* for PXT/microbit
 
 ```package
 YFRobotBit=github:YFROBOT-TM/pxt-YFRobot-iiclcd1602
