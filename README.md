@@ -9,14 +9,6 @@ This repository can be added as an **extension** in MakeCode.
 * click on **Extensions** under the gearwheel menu
 * search for **https://github.com/YFROBOT-TM/pxt-YFRobot-iiclcd1602** and import
 
-## Edit this project ![Build status badge](https://github.com/workflows/MakeCode/badge.svg)
-
-To edit this repository in MakeCode.
-
-* open []()
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/YFROBOT-TM/pxt-YFRobot-iiclcd1602** and click import
-
 ## Blocks preview
 
 ![A rendered view of the blocks](https://github.com/YFROBOT-TM/pxt-YFRobot-iiclcd1602/blob/master/.github/makecode/blocks.png)
