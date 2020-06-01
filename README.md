@@ -6,12 +6,12 @@
 
 This repository can be added as an **extension** in MakeCode.
 
-* open []()
+* open [micro:bit_makecode]( https://makecode.microbit.org/ )
 * click on **New Project**
 * click on **Extensions** under the gearwheel menu
 * search for **https://github.com/YFROBOT-TM/pxt-YFRobot-iiclcd1602** and import
 
-## Edit this project ![Build status badge](https://github.com//workflows/MakeCode/badge.svg)
+## Edit this project ![Build status badge](https://github.com/workflows/MakeCode/badge.svg)
 
 To edit this repository in MakeCode.
 
@@ -76,7 +76,7 @@ YFRobotBit.isLcdConnected()
 
 Licensed under the MIT License (MIT). See LICENSE file for more details.
 
-#### Metadata (used for search, rendering)
+## Metadata (used for search, rendering)
 
 * for PXT/microbit 
 (The metadata above is needed for package search.)
